@@ -1,6 +1,6 @@
 from django import forms
 
-from myapp.models import Laptop
+from .models import Laptop
 
 
 class LaptopForm(forms.ModelForm):

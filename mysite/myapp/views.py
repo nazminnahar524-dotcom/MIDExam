@@ -1,8 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 
-from myapp.forms import LaptopForm
-
-from myapp.models import Laptop
+from .forms import LaptopForm
+from .models import Laptop
 
 
 # Create your views here.
